@@ -1,0 +1,29 @@
+h1 {
+    font-size: 45px;
+}
+
+#hometwo {
+	height: 30em;
+}
+
+
+#map {
+    height:37.5em;
+}
+
+
+button {
+    top: -3.5em;
+    height: 9em;
+    width: 9em;
+}
+
+button p {
+    font-size: 35px;
+    padding-top: 1.4em;
+    line-height: 50px;
+}
+
+#footer {
+	height: 0em;
+}

@@ -1,0 +1,50 @@
+.phone {
+  padding-top: 2.5em;
+  width: 13em;
+}
+
+#about div img {
+    top: 1em;
+    width: 13em;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+
+p {
+	font-size: 22px;
+}
+
+#about p {
+    top:23.5em;
+}
+
+#map {
+    height:34em;
+}
+
+ #about {
+    height:86em;
+}
+
+#diet {
+    height: 33em;
+}
+
+button {
+    top: -2em;
+    height: 7em;
+    width: 7em;
+}
+
+button p {
+    font-size: 28px;
+    padding-top: 1.3em;
+    line-height: 40px;
+}
+
+#footer {
+	height: 0em;
+}

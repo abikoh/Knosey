@@ -1,0 +1,42 @@
+#about div img {
+    width:14em;
+    top:-2em;
+}
+
+.phone {
+    width:14em;
+}
+
+#about p {
+    
+    top:-6em;
+}
+
+#map {
+    height:38em;
+}
+
+#diet {
+    height:38em;
+}
+
+
+#two {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height:15em;
+}
+
+#three {
+    background-size: auto 100%; 
+    background-repeat: no-repeat;
+    height:15em;
+}
+
+#four {
+    height:15em;
+}
+
+#hometwo {
+	
+}

@@ -1,0 +1,56 @@
+h1 {
+    font-size: 30px;
+}
+
+#about div img {
+    top: 0em;
+    width: 12em;
+}
+
+p {
+	font-size: 20px;
+}
+
+#about p {
+    top:22.5em;
+}
+
+#about {
+    height:81em;
+}
+
+.phone {
+  padding-top: 2em;
+  width: 12em;
+}
+
+#map {
+    height:31em;
+}
+
+#diet {
+    height: 31em;
+}
+
+
+#two {
+	 background-size: auto 100%;
+	height:10em;
+}
+
+
+#three {
+	 background-size: auto 100%;
+	height:10em;
+}
+
+
+#four {
+	height:10em;
+}
+
+section #footer {
+	height: 0px;
+	padding: 0;
+	margin: 0;
+}

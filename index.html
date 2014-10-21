@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Knosey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" media="(max-width: 1150px)" href="css/1150.css">
+        <link rel="stylesheet" media="(max-width: 989px)" href="css/1000.css">
+        <link rel="stylesheet" media="(max-width: 800px)" href="css/800.css">
+        <link rel="stylesheet" media="(max-width: 780px)" href="css/780.css">
+        <link rel="stylesheet" media="(max-width: 754px)" href="css/754.css">
+        <link rel="stylesheet" media="(max-width: 686px)" href="css/686.css">
+        <link rel="stylesheet" media="(max-width: 557px)" href="css/526.css">
+        <link rel="stylesheet" media="(max-width: 460px)" href="css/460.css">
+        <link rel="stylesheet" media="(max-width: 439px)" href="css/439.css">
+        <link rel="stylesheet" media="(max-width: 401px)" href="css/400.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/bind-polyfill.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+            <script>
+             new WOW().init();
+            </script>
+
+
+            <div data-scroll-header id="navbar">
+                        <ul>
+                              <li><a data-scroll href="#home">Home</a><hr></li>
+                              <li><a data-scroll href="#jumpone">About</a><hr></li>
+                              <li><a data-scroll href="#jumptwo">Features</a><hr></li>
+                              <li><a data-scroll href="#jumpthree">Buy</a><hr></li>
+                        </ul>
+           </div>
+           <div id="navbarmobile">
+                        <ul>
+                              <li><a data-scroll href="#home">Home</a><hr></li>
+                              <li><a data-scroll href="#jumpone">About</a><hr></li>
+                              <li><a data-scroll href="#jumptwo">Features</a><hr></li>
+                              <li><a data-scroll href="#jumpthree">Buy</a><hr></li>
+                        </ul>
+           </div>
+           <img id="menuicon" src="img/menuicon.png" alt="Knosey">
+    
+    </head>
+
+
+
+    <body>
+        
+
+        <section id="home">
+            
+
+            <div id="hometwo">
+                <img id="logo" src="img/logo.png" alt="Knosey">
+            </div>
+
+
+        </section>
+        <div id="wrapper">
+        <div id="jumpone"></div>
+       
+        <section id="about">
+
+            
+            <h1 class="header">Wondering where that delicious smell is coming from?
+            </h1>
+
+            <div>
+                <img class="wow fadeInUp" src="img/2.png" alt="Knosey">
+                <img class="wow fadeInUp" data-wow-delay=".25s" id="block" src="img/3.png" alt="Knosey">
+                <img class="wow fadeInUp" data-wow-delay=".5s" src="img/4.png" alt="Knosey">
+            </div>
+                        
+            <p> Knosey is a phone app that makes use of new scent technology to process a smell and pinpoint what dish it is and which restaurant it came from. 
+            </p>
+
+        </section>
+
+        <div id="two">
+        </div>
+
+        <div id="jumptwo"></div>
+
+        <section id="map">
+            <h1 class="header">Knosey’s map will help you locate the restaurant
+            </h1>
+
+            <div>
+                <img class="phone wow fadeInUp" src="img/5.png" alt="Knosey">
+            </div>
+
+        </section>
+
+        <div id="three">   
+        </div>
+
+        <section id="diet">
+            <h1 class="header">Got dietary restrictions?
+            </h1>
+
+            <div>
+                <img class="phone wow fadeInUp" src="img/6.png" alt="Knosey">
+            </div>
+
+            <p> Knosey lets you know what food allergens are in the dish. </p>
+
+        </section>
+
+        <div id="four">      
+        </div>
+
+        <div id="jumpthree"></div>
+
+        <section id="buy">
+            <h1 class="header">Buy Knosey today
+            </h1>
+
+            <div>
+                <img class="phone wow fadeInUp" src="img/1.png" alt="Knosey">
+            </div>
+
+            <p>Only $1.99 for a limited time!</p>
+
+            <button class="wow rollIn"><p>BUY</br>NOW</p></button>
+
+        </section>
+
+        <section id="footer">
+        <p>Designed by Abi Koh</p>
+        </footer>
+
+        </div>  
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+    </script>
+
+        <script>
+            
+            smoothScroll.init();
+
+            $(document).ready(function(){
+                 $("#logo").hide(0).delay(0).fadeIn(1500)
+            });
+
+           
+           
+
+
+                    
+             $("#menuicon").click(function(){
+
+
+                if ( $("#navbarmobile" ).is( ":hidden" ) ) {
+                document.getElementById("navbarmobile").style.display = "block";
+                    } else {
+                    document.getElementById("navbarmobile").style.display = "none";
+                } 
+            });           
+
+        
+             
+
+            $("li").click(function(){    
+                document.getElementById("navbarmobile").style.display = "none";
+                
+             }); 
+
+            $("#wrapper").click(function () {
+                document.getElementById("navbarmobile").style.display = "none";
+            });  
+            $("#hometwo").click(function () {
+                document.getElementById("navbarmobile").style.display = "none";
+            }); 
+
+             $(window).resize(function(){
+            
+            if ($(window).width() >= 687){  
+            document.getElementById("navbar").style.display = "block";        
+                } 
+                else {
+                    document.getElementById("navbar").style.display = "none"; 
+                }
+            });
+
+            
+            /*
+             document.getElementById("#navbar").style.visibility="visible";
+             
+
+
+            $( ".pluscircle" ).click(function() {
+                     
+
+                    $("#firstcapsule").fadeOut();
+                    $("#arrow").fadeOut("1000");
+                    
+
+
+                if ( $( "#timeline" ).is( ":hidden" ) ) {
+                           $( "#timeline" ).show();
+
+                           $( "#timeline" ).animate({
+                              "marginTop" : "-=500px"
+                            }, 800 );
+
+                           $(".pluscircle").animate({
+                               "marginTop" : "-=50px"
+                                });
+                           
+                      } else {
+                          
+                      }
+
+            });
+        
+            */
+
+        </script>
+
+
+    </body>
+</html>
